@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Environment variables / secrets
+.env
+*.env
+*.env.local
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Large raw datasets (keep processed/sample data only)
+data1.csv
+*.csv
+*.xlsx
+*.parquet
+*.feather
+!sample_data/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Model artifacts (regenerate from notebook)
+*.pkl
+*.joblib
+*.h5
